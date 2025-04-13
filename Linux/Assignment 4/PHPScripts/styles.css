@@ -1,0 +1,144 @@
+/* Style Sheet for Authentication Page*/
+
+#body {
+	background-color: #B0C4DE;
+}
+
+#textBody  {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 425px;
+	font-family: lucida;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+#textSuccess  {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 600px;
+	font-family: lucida;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+#textDelete  {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 550px;
+	font-family: lucida;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+#textCreate {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 600px;
+	font-family: lucida;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+#textFail {
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 600px;
+	font-family: lucida;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+}
+
+#tableBody  {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 625px;
+	font-family: lucida;
+}
+
+#tableSuccess  {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 625px;
+	border-bottom: 1px;
+	background-color: #B0C4DE;
+
+}
+
+#tableChange {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 625px;
+	border-bottom: 1px;
+	background-color: #B0C4DE;
+
+}
+
+#tableDelete{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 625px;
+	background-color: #B0C4DE;
+
+}
+
+#tableCreate{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 625px;
+	background-color: #B0C4DE;
+
+}
+#return  {
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 685px;
+
+}
+#header  {
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 225px;
+	height: 200px;
+	opacity: 1;
+	z-index: -1;
+
+	-moz-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;		
+}
+
+#flower  {
+	position: absolute;
+	margin-top: 425px;
+	margin-left: 525px;
+	
+	-moz-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;	
+}
+
+#cupcake  {
+	position: absolute;
+	margin-top: 425px;
+	margin-left: 575px;
+	
+	-moz-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;	
+}
+
+#getout  {
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 525px;
+	
+	-moz-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;
+	box-shadow: rgba(0,0,0,0.4) 5px 5px 10px;	
+}

@@ -1,0 +1,57 @@
+https://www.reddit.com/r/linuxadmin/comments/elu9qk/dns_and_dhcp_server/
+
+https://wiki.debian.org/dnsmasq
+
+https://ubuntu.com/server/docs/install-and-configure-a-cups-print-server
+
+----
+
+Set Reserved/Static IPs  in /etc/dnsmasq.conf
+# Static IP Assignments
+dhcp-host=B8:8A:E3:AA:EA:5F,C8:F7:33:32:80:39,Betty,192.168.0.100
+dhcp-host=90:A4:DE:7A:04:86,Onkyo,192.168.0.101
+
+To show programs listening on ports:
+sudo ss -anlp | grep -w LISTEN
+
+----DNS ISSUES----
+
+https://jonamiki.com/2020/01/29/dnsmasq-failed-to-create-listening-socket-for-port-53-address-already-in-use/
+Done on second VM, same issue, Link lo is loopback device
+
+Black Magic:
+https://www.linkedin.com/pulse/dns-troubleshooting-dnsmasq-mike-l-gardner-ms-mis/
+
+----CENTOS----
+https://www.tecmint.com/setup-a-dns-dhcp-server-using-dnsmasq-on-centos-rhel/
+
+***ADD OTHER SERVER IPS TO /ETC/HOSTS***
+
+MAKE SURE SERVICES ARE STARTED ON BOOT
+
+Leases located at /var/lib/dnsmasq/dnsmasq.leases
+
+---
+Ubuntu
+Cherry Bind9 DNS: https://www.cherryservers.com/blog/how-to-install-and-configure-a-private-bind-dns-server-on-ubuntu-22-04
+ISC DHCP: https://ubuntu.com/server/docs/how-to-install-and-configure-isc-dhcp-server
+
+. 's in domain name for DNS config is to direct to the ABSOLUTE address
+
+VMWare Settings:
+Enabled Bridged for everyone, make sure it's not 172, disable DHCP
+
+Left off: struggling with /etc/netplan files
+
+**DHCP**
+
+isc-dhcp-client
+
+sudo dhclient
+
+**PRINTING**
+
+Seems good, if issues arise:
+https://www.linuxbabe.com/ubuntu/set-up-cups-print-server-ubuntu-bonjour-ipp-samba-airprint
+
+Install Avahi on server and install ippfind on client machines (sudo apt install cups-ipp-utils)
